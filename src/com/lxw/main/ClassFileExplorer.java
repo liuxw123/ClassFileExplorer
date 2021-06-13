@@ -51,8 +51,7 @@ public class ClassFileExplorer {
     }
 
     public static void main(String[] args) {
-        File path = new File("/home/lxw/IdeaProjects");
-        decodeAll(path);
+        System.out.println(new ClassFileExplorer("out/production/ClassFileExplorer/com/lxw/main/ClassFileExplorer.class"));
     }
 
     public static void decodeAll(File path) {
